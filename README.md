@@ -2,10 +2,10 @@
 <p>Features:
     <ul>
         <li>Add/remove task</li>
-        <li>Add all tasks</li>
+        <li>Remove all tasks</li>
         <li>Sort tasks by adding order (id)</li>
         <li>Sort by name</li>
-        <li>30 tasks maximum are posible</li>
+        <li>30 tasks maximum are allowed</li>
     </ul>
 </p>
-<p><a href="">Try online</a></p>
+<p><a href="https://ganolmc.github.io/Task-App/">Try online</a></p>
