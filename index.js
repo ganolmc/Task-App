@@ -159,6 +159,11 @@ host.addEventListener('click', e => {
         tasks = tasks.replace(/},{/g, "\},/{")
         const taskArr = tasks.split(',/');
         taskArr.splice(e.target.dataset.value, 1);
+        if (taskArr.length == 0) {
+            deleteAllTasks();
+        } else {
+            updateTasksList(taskArr);
+        }
         updateTasksList(taskArr);
     }
 });
